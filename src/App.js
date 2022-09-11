@@ -33,6 +33,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("listDone", JSON.stringify(listDone));
   }, [listDone]);
+  
   return (
     <>
       <section className="section-center">

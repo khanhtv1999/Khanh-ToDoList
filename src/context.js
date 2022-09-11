@@ -11,6 +11,9 @@ const AppProvider = ({ children }) => {
       return [];
     }
   };
+  const deadLine = () => {
+
+  }
 
   const getLocalStorageListDone = () => {
     let list = localStorage.getItem("listDone");
